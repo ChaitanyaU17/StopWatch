@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Bg-img">
+        <img src="pocket-watch-2031021_1920.jpg" alt="Background Image" class="bg-image">
+        <div class="content">
+            <h1 class="text text-center header" style="left: 5px;">Stop Watch</h1>
+            <div class="container w-50">
+            
+                <div class="timer text-center">
+                    <span id="hours">00</span>
+                    <span>:</span>
+                    <span id="minutes">00</span>
+                    <span>:</span>
+                    <span id="seconds">00</span>
+                    <span>:</span>
+                    <span id="mseconds">00</span>
+                </div>
+        
+                <div id="buttons" class="text-center">
+                    <button class="btn btn-outline-light w-35" id="start">start</button>
+                    <button class="btn btn-outline-light w-35" id="pause">pause</button>
+                    <button class="btn btn-outline-light w-35" id="reset">reset</button>
+                    <button class="btn btn-outline-light w-35" id="submit">submit</button>
+                </div>
+                <hr>
+        
+                <div class="text-center">
+                    <h3 class="header w-44">Your Submitted Laps</h3>
+                    <div id="laps"></div>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
